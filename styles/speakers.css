@@ -1,0 +1,66 @@
+#speakers {
+	padding: 2rem 1.5rem;
+}
+
+.speaker-heading {
+	margin-bottom: 2rem;
+}
+
+.speaker-heading h1 {
+	text-align: center;
+	color: var(--lightBlack);
+	font-size: 1.1rem;
+	font-weight: 400;
+	margin-bottom: 0.7rem;
+}
+
+.speaker-heading .trait {
+	width: 3rem;
+	height: 0.2rem;
+	border-bottom: 1px solid var(--orange);
+	margin: 0 auto;
+}
+
+.speaker-contents {
+	display: flex;
+	flex-direction: column;
+}
+
+.speaker-content {
+	display: flex;
+	gap: 20px;
+	margin-bottom: 2.5rem;
+}
+
+.speaker-image {
+	width: 50%;
+}
+
+.speaker-desc {
+	width: 100%;
+}
+
+.speaker-desc .trait {
+	width: 2rem;
+	height: 0.2rem;
+	margin: 0.7rem 0;
+	border-bottom: 2px solid var(--lightGray);
+}
+
+.speaker-desc h2 {
+	color: var(--lightBlack);
+	font-size: 1.1rem;
+	margin-bottom: 0.5rem;
+}
+
+.speaker-desc h5 {
+	color: var(--orange);
+	font-style: italic;
+	font-weight: 600;
+	font-size: 0.75rem;
+}
+
+.speaker-desc p {
+	font-size: 0.75rem;
+	font-weight: 400;
+}
