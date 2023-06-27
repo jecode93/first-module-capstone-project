@@ -1,155 +1,155 @@
 .humburger-icon button {
-	background: none;
-	border: none;
+  background: none;
+  border: none;
 }
 
 .humburger-icon i,
 .nav-items i {
-	position: absolute;
-	top: 1.5rem;
-	left: 1.5rem;
-	font-weight: bold;
-	font-size: 2rem;
-	color: var(--lightBlack);
-	cursor: pointer;
+  position: absolute;
+  top: 1.5rem;
+  left: 1.5rem;
+  font-weight: bold;
+  font-size: 2rem;
+  color: var(--lightBlack);
+  cursor: pointer;
 }
 
 .nav-items i {
-	color: var(--white);
+  color: var(--white);
 }
 
 .humburger-icon .close-icon {
-	display: none;
+  display: none;
 }
 
 .nav-items {
-	position: fixed;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	z-index: 99;
-	padding: 5rem 0 0 0;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	list-style: none;
-	background-color: var(--orange);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 99;
+  padding: 5rem 0 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+  background-color: var(--orange);
 }
 
 .nav-items .nav-item {
-	margin-bottom: 1.5rem;
-	font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
 }
 
 .nav-item:hover {
-	text-decoration: underline;
+  text-decoration: underline;
 }
 
 .nav-items .cc {
-	font-size: 1.3rem;
-	margin-top: 1.5rem;
-	padding: 1rem;
-	border-radius: 0.5rem;
-	border: 2px solid var(--white);
+  font-size: 1.3rem;
+  margin-top: 1.5rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: 2px solid var(--white);
 }
 
 .nav-items li a {
-	color: var(--white);
+  color: var(--white);
 }
 
 .isHidden {
-	display: none;
+  display: none;
 }
 
 .social-menu {
-	display: none;
+  display: none;
 }
 
 .desktop-nav-items {
-	display: none;
+  display: none;
 }
 
 @media screen and (min-width: 768px) {
-	.humburger-icon {
-		display: none;
-	}
+  .humburger-icon {
+    display: none;
+  }
 
-	.social-menu {
-		height: 2rem;
-		background-color: var(--lightBlack);
-		display: flex;
-		justify-content: flex-end;
-		align-items: center;
-		padding: 0 10rem;
-		gap: 0.75rem;
-	}
+  .social-menu {
+    height: 2rem;
+    background-color: var(--lightBlack);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 10rem;
+    gap: 0.75rem;
+  }
 
-	.social-menu i {
-		margin-left: 0.75rem;
-		color: var(--white);
-	}
+  .social-menu i {
+    margin-left: 0.75rem;
+    color: var(--white);
+  }
 
-	.nav-link {
-		margin-left: 1rem;
-	}
+  .nav-link {
+    margin-left: 1rem;
+  }
 
-	.nav-links-items {
-		display: flex;
-		list-style: none;
-		padding: 0;
-		color: var(--white);
-		font-weight: 300;
-		font-size: 0.9rem;
-	}
+  .nav-links-items {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    color: var(--white);
+    font-weight: 300;
+    font-size: 0.9rem;
+  }
 
-	.desktop-nav-items {
-		display: flex;
-		align-items: center;
-		padding: 0 10rem;
-		justify-content: space-between;
-		height: 5rem;
-		box-shadow: 1px -1px 5px;
-	}
+  .desktop-nav-items {
+    display: flex;
+    align-items: center;
+    padding: 0 10rem;
+    justify-content: space-between;
+    height: 5rem;
+    box-shadow: 1px -1px 5px;
+  }
 
-	.desktop-nav-items-links {
-		display: flex;
-		margin-right: 5rem;
-		list-style: none;
-	}
+  .desktop-nav-items-links {
+    display: flex;
+    margin-right: 5rem;
+    list-style: none;
+  }
 
-	.about a {
-		color: var(--orange);
-	}
+  .about a {
+    color: var(--orange);
+  }
 
-	.desktop-nav-items-links li {
-		margin-left: 3rem;
-	}
+  .desktop-nav-items-links li {
+    margin-left: 3rem;
+  }
 
-	.desktop-nav-item-link:hover {
-		text-decoration: underline var(--orange);
-	}
+  .desktop-nav-item-link:hover {
+    text-decoration: underline var(--orange);
+  }
 
-	.desktop-cc {
-		font-size: 1rem;
-		padding: 0.5rem 0.8rem;
-		border: 3px solid var(--orange);
-	}
+  .desktop-cc {
+    font-size: 1rem;
+    padding: 0.5rem 0.8rem;
+    border: 3px solid var(--orange);
+  }
 
-	.menu-cc {
-		display: flex;
-		align-items: center;
-	}
+  .menu-cc {
+    display: flex;
+    align-items: center;
+  }
 
-	.wd-logo {
-		color: var(--orange);
-		font-weight: 900;
-		text-align: center;
-	}
+  .wd-logo {
+    color: var(--orange);
+    font-weight: 900;
+    text-align: center;
+  }
 
-	.wd-logo span {
-		color: var(--lightBlack);
-		font-weight: 700;
-		text-transform: uppercase;
-	}
+  .wd-logo span {
+    color: var(--lightBlack);
+    font-weight: 700;
+    text-transform: uppercase;
+  }
 }

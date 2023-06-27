@@ -3,12 +3,12 @@ const close = document.querySelector('.close-icon');
 const menu = document.querySelector('.nav-items');
 
 function toggleMenu() {
-	if (menu.classList.contains('isHidden')) {
-		menu.classList.remove('isHidden');
-	} else {
-		menu.classList.add('isHidden');
-	}
+  if (menu.classList.contains('isHidden')) {
+    menu.classList.remove('isHidden');
+  } else {
+    menu.classList.add('isHidden');
+  }
 }
 
-show.addEventListener('click', toggleMenu)
-close.addEventListener('click', toggleMenu)
+show.addEventListener('click', toggleMenu);
+close.addEventListener('click', toggleMenu);

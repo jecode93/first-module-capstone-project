@@ -1,80 +1,80 @@
 #hero {
-	background-image: url("../images/mobile-intro-bg.png");
-	background-size: cover;
-	background-repeat: no-repeat;
-	height: 35rem;
-	padding: 6rem 1.5rem;
+  background-image: url("../images/mobile-intro-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 35rem;
+  padding: 6rem 1.5rem;
 }
 
 .heading {
-	color: var(--orange);
+  color: var(--orange);
 }
 
 .heading h2 {
-	font-size: 1.7rem;
-	text-transform: uppercase;
-	font-weight: 900;
-	margin-top: 0.2rem;
-	margin-bottom: 0.5rem;
+  font-size: 1.7rem;
+  text-transform: uppercase;
+  font-weight: 900;
+  margin-top: 0.2rem;
+  margin-bottom: 0.5rem;
 }
 
 .heading p {
-	font-size: 1.4rem;
-	font-weight: 300;
-	margin-top: 0.2rem;
+  font-size: 1.4rem;
+  font-weight: 300;
+  margin-top: 0.2rem;
 }
 
 .desc {
-	border: 2px solid var(--white);
-	padding: 1rem;
-	background-color: rgb(247, 247, 247);
-	margin-bottom: 0.5rem;
+  border: 2px solid var(--white);
+  padding: 1rem;
+  background-color: rgb(247, 247, 247);
+  margin-bottom: 0.5rem;
 }
 
 .desc p {
-	color: var(--gray);
-	font-size: 0.9rem;
-	line-height: 1.3rem;
+  color: var(--gray);
+  font-size: 0.9rem;
+  line-height: 1.3rem;
 }
 
 .eventDate p {
-	font-size: 1.5rem;
-	color: var(--lightBlack);
-	font-weight: 900;
-	margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+  color: var(--lightBlack);
+  font-weight: 900;
+  margin-bottom: 0.5rem;
 }
 
 .eventDate small {
-	color: var(--gray);
+  color: var(--gray);
 }
 
 @media screen and (min-width: 768px) {
-	#hero {
-		background-image: url("../images/desktop-bg.png");
-		background-size: cover;
-		background-repeat: no-repeat;
-		height: 85vh;
-		padding: 0 10rem;
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-	}
+  #hero {
+    background-image: url("../images/desktop-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 85vh;
+    padding: 0 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 
-	.heading h2 {
-		font-size: 4.5rem;
-	}
+  .heading h2 {
+    font-size: 4.5rem;
+  }
 
-	.heading p {
-		font-size: 2.5rem;
-	}
+  .heading p {
+    font-size: 2.5rem;
+  }
 
-	.eventDate p {
-		font-size: 2rem;
-		color: var(--lightBlack);
-	}
+  .eventDate p {
+    font-size: 2rem;
+    color: var(--lightBlack);
+  }
 
-	.eventDate small {
-		color: var(--gray);
-		font-size: 1rem;
-	}
+  .eventDate small {
+    color: var(--gray);
+    font-size: 1rem;
+  }
 }

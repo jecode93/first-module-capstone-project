@@ -1,69 +1,69 @@
 #partners {
-	padding: 2rem 1.5rem;
-	background-color: var(--lightBlack);
+  padding: 2rem 1.5rem;
+  background-color: var(--lightBlack);
 }
 
 .partners-heading {
-	margin-bottom: 2rem;
+  margin-bottom: 2rem;
 }
 
 .partners-heading h1 {
-	text-align: center;
-	color: var(--white);
-	font-size: 1.1rem;
-	font-weight: 400;
-	margin-bottom: 0.7rem;
+  text-align: center;
+  color: var(--white);
+  font-size: 1.1rem;
+  font-weight: 400;
+  margin-bottom: 0.7rem;
 }
 
 .partners-heading .trait {
-	width: 3rem;
-	height: 0.2rem;
-	border-bottom: 1px solid var(--orange);
-	margin: 0 auto;
+  width: 3rem;
+  height: 0.2rem;
+  border-bottom: 1px solid var(--orange);
+  margin: 0 auto;
 }
 
 .partner-contents {
-	display: flex;
-	align-items: center;
-	gap: 20px;
-	text-align: center;
-	flex-wrap: wrap;
-	justify-content: center;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .partner-contents small {
-	color: var(--gray);
-	font-size: 1.5rem;
-	text-align: center;
+  color: var(--gray);
+  font-size: 1.5rem;
+  text-align: center;
 }
 
 .partner-contents img {
-	width: 30%;
+  width: 30%;
 }
 
 @media screen and (min-width: 768px) {
-	#partners {
-		padding: 3rem 10rem;
-		background-color: var(--lightBlack);
-	}
+  #partners {
+    padding: 3rem 10rem;
+    background-color: var(--lightBlack);
+  }
 
-	.partners-heading h1 {
-		text-align: center;
-		color: var(--lightGray);
-		font-size: 1.5rem;
-		font-weight: 400;
-		margin-bottom: 0.7rem;
-	}
+  .partners-heading h1 {
+    text-align: center;
+    color: var(--lightGray);
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 0.7rem;
+  }
 
-	.partner-contents {
-		display: grid;
-		grid-template-columns: repeat(5, 1fr);
-		gap: 20px;
-		align-items: center;
-		justify-content: center;
-	}
+  .partner-contents {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+  }
 
-	.partner-contents img {
-		width: 100%;
-	}
+  .partner-contents img {
+    width: 100%;
+  }
 }
