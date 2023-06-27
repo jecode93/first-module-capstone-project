@@ -54,13 +54,13 @@
     background-size: cover;
     background-repeat: no-repeat;
     height: 85vh;
-    padding: 0 10rem;
     display: flex;
+    padding: 0 10rem;
     flex-direction: column;
     justify-content: center;
   }
 
-  .heading h2 {
+  .heading h1 {
     font-size: 4.5rem;
   }
 

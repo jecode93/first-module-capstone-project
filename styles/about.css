@@ -79,7 +79,6 @@
 .about-logo-img {
   height: 100px;
   align-items: center;
-  display: flex;
   justify-content: center;
   border: 1px solid var(--lightGray);
   margin-top: 2rem;

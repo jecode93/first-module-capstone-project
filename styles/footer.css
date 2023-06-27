@@ -1,6 +1,5 @@
 footer {
   padding: 2rem 1.5rem;
-  display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 10px;
@@ -14,6 +13,22 @@ footer .wd-logo {
 
 footer .wd-logo span {
   color: var(--lightBlack);
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+#about-page-footer{
+  background-color: var(--lightBlack);
+}
+
+#about-page-footer .about-wd-logo {
+  color: var(--orange);
+  font-weight: 900;
+  text-align: center;
+}
+
+#about-page-footer .about-wd-logo span {
+  color: var(--white);
   font-weight: 700;
   text-transform: uppercase;
 }

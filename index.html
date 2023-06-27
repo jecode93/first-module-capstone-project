@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,27 +14,26 @@
 		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
 	</head>
-
 	<body>
 		<header>
 			<div class="humburger-icon">
 				<i class="menu-icon material-icons">menu</i>
 			</div>
 			<nav>
-				<div class="social-menu">
+				<div class="social-menu flex">
 					<div class="icons">
 						<i class="fa fa-facebook" aria-hidden="true"></i>
 						<i class="fa fa-twitter" aria-hidden="true"></i>
 					</div>
 					<div class="nav-links">
-						<ul class="nav-links-items">
+						<ul class="nav-links-items flex">
 							<li class="nav-link">English</li>
 							<li class="nav-link">My Page</li>
 							<li class="nav-link">Logout</li>
 						</ul>
 					</div>
 				</div>
-				<ul class="nav-items isHidden">
+				<ul class="nav-items isHidden flex">
 					<i class="close-icon material-icons">close</i>
 					<li class="nav-item"><a href="/pages/about.html">About</a></li>
 					<li class="nav-item"><a href="#main-program">Program</a></li>
@@ -44,10 +42,10 @@
 					<li class="nav-item"><a href="#">News</a></li>
 					<li class="cc"><a>CC Campaign</a></li>
 				</ul>
-				<nav class="desktop-nav-items">
+				<nav class="desktop-nav-items flex">
 					<a href="/" class="wd-logo">WD<span>Course</span></a>
-					<div class="menu-cc">
-						<ul class="desktop-nav-items-links">
+					<div class="menu-cc flex">
+						<ul class="desktop-nav-items-links flex">
 							<li class="desktop-nav-item-link about"><a href="/pages/about.html">About</a></li>
 							<li class="desktop-nav-item-link"><a href="#main-program">Program</a></li>
 							<li class="desktop-nav-item-link"><a href="#">Join</a></li>
@@ -64,7 +62,7 @@
 			<section id="hero" class="hero">
 				<div class="heading">
 					<p class="hello">"Hello! Learner world"</p>
-					<h2>Build websites and applications with the best</h2>
+					<h1>Build websites and applications with the best</h1>
 				</div>
 				<div class="desc">
 					<p>The world of web development is as wide as the internet itself. Much of our social and vocational lives
@@ -84,7 +82,7 @@
 				</div>
 				<div class="program-contents">
 					<!-- Program 1 -->
-					<div class="program-content">
+					<article class="program-content flex">
 						<div class="program-icon">
 							<img src="./images/program-icon-01.png" alt="Conference icon">
 						</div>
@@ -94,9 +92,9 @@
 						<div class="program-p">
 							<p>Listen to the speakers from various countries about the messeges of sharing and opening</p>
 						</div>
-					</div>
+					</article>
 					<!-- Program 2 -->
-					<div class="program-content">
+					<article class="program-content flex">
 						<div class="program-icon">
 							<img src="./images/program-icon-02.png" alt="Conference icon">
 						</div>
@@ -106,9 +104,9 @@
 						<div class="program-p">
 							<p>Appreciate various creations applying CC license of artists, organized from at center Nabi</p>
 						</div>
-					</div>
+					</article>
 					<!-- Program 3 -->
-					<div class="program-content">
+					<article class="program-content flex">
 						<div class="program-icon">
 							<img src="./images/program-icon-03.png" alt="Conference icon">
 						</div>
@@ -118,9 +116,9 @@
 						<div class="program-p">
 							<p>Have the time to share your thoughts with experts for each topic</p>
 						</div>
-					</div>
+					</article>
 					<!-- Program 4 -->
-					<div class="program-content">
+					<article class="program-content flex">
 						<div class="program-icon">
 							<img src="./images/program-icon-04.png" alt="Conference icon">
 						</div>
@@ -130,9 +128,9 @@
 						<div class="program-p">
 							<p>Try creating your own work using open source license rather just watching</p>
 						</div>
-					</div>
+					</article>
 					<!-- Program 5 -->
-					<div class="program-content">
+					<article class="program-content flex">
 						<div class="program-icon">
 							<img src="images/program-icon-05.png" alt="Conference icon">
 						</div>
@@ -142,7 +140,7 @@
 						<div class="program-p">
 							<p>Get opportunities to network with CC affiliates around the world, also after the summit</p>
 						</div>
-					</div>
+					</article>
 					<div class="program-button">
 						<a href="#">Join CC Global Summit 2023</a>
 					</div>
@@ -165,16 +163,16 @@
 					<h1>Partner</h1>
 					<div class="trait"></div>
 				</div>
-				<div class="partner-contents">
+				<div class="partner-contents flex">
 					<img src="images/mozilla-logo.png" alt="Mozilla Logo">
-					<img src="images/google-logo.png" alt="Mozilla Logo">
-					<img src="images/naver-logo.png" alt="Mozilla Logo">
+					<img src="images/google-logo.png" alt="Google Logo">
+					<img src="images/naver-logo.png" alt="Naver Logo">
 					<small>daumkakao</small>
-					<img src="images/airbnb-logo.png" alt="Mozilla Logo">
+					<img src="images/airbnb-logo.png" alt="Airbnb Logo">
 				</div>
 			</section>
 
-			<footer>
+			<footer class="flex">
 				<a href="/" class="wd-logo">WD<span>Course</span></a>
 				<p>2023 Jecode93 © Copyright All right reserved</p>
 			</footer>

@@ -27,7 +27,6 @@
 .program-content {
   background: rgba(255, 255, 255, 0.1);
   padding: 1rem;
-  display: flex;
   align-items: center;
   gap: 8px;
   margin-bottom: 8px;
@@ -88,7 +87,6 @@
 
   .program-content {
     padding: 1rem;
-    display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
@@ -109,6 +107,10 @@
 
   .program-content .program-h2 {
     height: 40%;
+  }
+  
+  .program-content .program-h2 h2{
+    font-size: 1.2rem;
   }
 
   .program-button {
