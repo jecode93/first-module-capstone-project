@@ -133,7 +133,7 @@ You can deploy this project using:
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link will be available soon]()
+- [Live Demo](https://jecode93.github.io/first-module-capstone-project/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
