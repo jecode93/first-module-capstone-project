@@ -1,0 +1,125 @@
+#main-program {
+  background-image: url("../images/program-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 2rem 1.5rem;
+}
+
+.program-heading {
+  margin-bottom: 2rem;
+}
+
+.program-heading h1 {
+  text-align: center;
+  color: var(--white);
+  font-size: 1.1rem;
+  font-weight: 400;
+  margin-bottom: 0.7rem;
+}
+
+.program-heading .trait {
+  width: 3rem;
+  height: 0.2rem;
+  border-bottom: 1px solid var(--orange);
+  margin: 0 auto;
+}
+
+.program-content {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 1rem;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.program-content .program-icon {
+  width: 40%;
+}
+
+.program-content .program-p {
+  width: 100%;
+}
+
+.program-content .program-h2 {
+  width: 40%;
+}
+
+.program-content .program-h2 h2 {
+  color: var(--orange);
+  font-size: 0.875rem;
+}
+
+.program-content .program-p p {
+  color: var(--white);
+  font-size: 0.8rem;
+  font-weight: 400;
+  line-height: 1.1rem;
+}
+
+.program-contents .program-button {
+  margin: 3rem 0;
+  text-align: center;
+}
+
+.program-contents .program-button a {
+  color: var(--white);
+  background-color: var(--orange);
+  padding: 1.2rem 1.5rem;
+}
+
+@media screen and (min-width: 768px) {
+  #main-program {
+    background-image: url("../images/program-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 3rem 10rem;
+  }
+
+  .program-heading h1 {
+    font-size: 1.5rem;
+  }
+
+  .program-contents {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 2px;
+  }
+
+  .program-content {
+    padding: 1rem;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 8px;
+  }
+
+  .program-content:hover {
+    border: 1px solid var(--white);
+  }
+
+  .program-content .program-icon {
+    height: 40%;
+  }
+
+  .program-content .program-p {
+    height: 100%;
+  }
+
+  .program-content .program-h2 {
+    height: 40%;
+  }
+
+  .program-content .program-h2 h2 {
+    font-size: 1.2rem;
+  }
+
+  .program-button {
+    grid-column: 2/ span 3;
+  }
+
+  .program-contents .program-button a {
+    background-color: rgba(255, 255, 255, 0);
+    text-transform: uppercase;
+    text-decoration: underline;
+  }
+}
