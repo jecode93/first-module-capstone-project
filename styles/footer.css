@@ -22,3 +22,10 @@ footer p {
 	font-size: 1rem;
 	color: var(--gray);
 }
+
+@media screen and (min-width:768px) {
+	footer {
+	padding: 2rem 10rem;
+}
+
+}

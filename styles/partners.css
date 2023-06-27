@@ -40,3 +40,30 @@
 .partner-contents img {
 	width: 30%;
 }
+
+@media screen and (min-width: 768px) {
+	#partners {
+		padding: 3rem 10rem;
+		background-color: var(--lightBlack);
+	}
+
+	.partners-heading h1 {
+		text-align: center;
+		color: var(--lightGray);
+		font-size: 1.5rem;
+		font-weight: 400;
+		margin-bottom: 0.7rem;
+	}
+
+	.partner-contents {
+		display: grid;
+		grid-template-columns: repeat(5, 1fr);
+		gap: 20px;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.partner-contents img {
+		width: 100%;
+	}
+}

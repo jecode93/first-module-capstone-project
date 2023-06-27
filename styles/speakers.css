@@ -32,10 +32,6 @@
 	margin-bottom: 2.5rem;
 }
 
-.speaker-image {
-	width: 50%;
-}
-
 .speaker-desc {
 	width: 100%;
 }
@@ -63,4 +59,21 @@
 .speaker-desc p {
 	font-size: 0.75rem;
 	font-weight: 400;
+}
+
+@media screen and (min-width:768px) {
+	#speakers {
+		padding: 3rem 10rem;
+	}
+
+	.speaker-heading h1 {
+		font-size: 1.5rem;
+	}
+
+	.speaker-contents {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		gap: 20px;
+	}
+
 }
