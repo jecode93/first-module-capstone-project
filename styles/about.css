@@ -145,7 +145,7 @@
   display: none;
 }
 
-@media screen and (min-width:768px) {
+@media screen and (min-width: 768px) {
   #about-hero {
     background-image: url("../images/about-bg.png");
     background-size: contain;
@@ -185,7 +185,7 @@
     font-size: 1rem;
   }
 
-	/* About log section */
+  /* About log section */
   #about-logo {
     padding: 6rem 10rem;
   }
@@ -209,7 +209,6 @@
     padding: 5rem 10rem;
     border-bottom: 1px solid var(--lightGray);
   }
-
 
   .see-img {
     width: 100%;
